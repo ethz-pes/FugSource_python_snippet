@@ -17,7 +17,7 @@ External safety circuits (such as breakers) are required to guarantee the absenc
 
 ## Author
 
-**Thomas Guillod** * [GitHub Profile](https://github.com/otvam)
+**Thomas Guillod** - [GitHub Profile](https://github.com/otvam)
 
 ## License
 
