@@ -1,4 +1,4 @@
-# Python code for FuG Elektronik Power Source (Ethernet)
+# Python code for FuG Elektronik power sources (Ethernet)
 
 This **Python** class remote control power sources from **FuG Elektronik GmbH** over ethernet:
 * connect to the device
