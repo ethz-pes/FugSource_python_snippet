@@ -1,4 +1,4 @@
-# (c) 2020, ETH Zurich, Power Electronic Systems Laboratory, T. Guillod
+# (c) 2020-2021, ETH Zurich, Power Electronic Systems Laboratory, T. Guillod
 
 import socket
 
@@ -49,7 +49,7 @@ class TCPClient():
         """
 
         try:
-            self.link.send(msg)
+            self.link.send(msg.encode())
         except Exception:
             raise ValueError("send fail")
 
@@ -76,7 +76,7 @@ class TCPClient():
 
         try:
             try:
-                return self.link.recv(self.data["buffer"])
+                return self.link.recv(self.data["buffer"]).decode()
             except socket.timeout:
                 return ''
         except Exception:

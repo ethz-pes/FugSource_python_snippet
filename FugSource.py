@@ -1,4 +1,4 @@
-# (c) 2020, ETH Zurich, Power Electronic Systems Laboratory, T. Guillod
+# (c) 2020-2021, ETH Zurich, Power Electronic Systems Laboratory, T. Guillod
 
 import time
 import TCPClient
@@ -178,12 +178,12 @@ class FugSource():
         Parse the responses from the power source and set the data.
         """
 
-        if command == "E0":
+        if command == "E0\r":
             return "ack"
-        elif (len(command) == 13) and (command[-2:] == 'VN'):
+        elif (len(command) == 14) and (command[-3:] == 'VN\r'):
             self.V = float(command[:11])
             return "V"
-        elif (len(command) == 13) and (command[-2:] == 'AN'):
+        elif (len(command) == 14) and (command[-3:] == 'AN\r'):
             self.I = float(command[:11])
             return "I"
         else:
