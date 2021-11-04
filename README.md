@@ -1,5 +1,10 @@
 # Python Code for FuG Elektronik Power Sources (Ethernet)
 
+![license - BSD](https://img.shields.io/badge/license-BSD-green)
+![language - python](https://img.shields.io/badge/language-python-blue)
+![category - power electronics](https://img.shields.io/badge/category-power%20electronics-lightgrey)
+![status - unmaintained](https://img.shields.io/badge/status-unmaintained-red)
+
 This **Python** class remote control power sources from **FuG Elektronik GmbH** over ethernet:
 * connect to the device
 * enable/disable the power source
