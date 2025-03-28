@@ -24,8 +24,6 @@ This class is meant as a lightweight code to be used as a "code snippet" and not
 Power sources are dangerous and Python does not qualify as an high-integrity programming language.
 External safety circuits (such as breakers) are required to guarantee the absence of hazards.
 
-This tool is developed by the **Power Electronic Systems Laboratory at ETH Zurich** and is available under the **BSD License**. The code is also available on the ETH Data Archive.
-
 ## Author
 
 * **Thomas Guillod, ETH Zurich, Power Electronic Systems Laboratory** - [GitHub Profile](https://github.com/otvam)
